@@ -8,7 +8,7 @@
   "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Put the session-id here.",
+      "description": "IK~mNt3UKTb#YkctLeUJIsRcU60or7i6cRkLU4C8B0XLoDsiy_XmPrM",
       "required": true,
       "value": ""
     },  
@@ -28,7 +28,7 @@
     "MODE": {
       "description": "select your bot work type public-private-inbox-group.",
       "required": false,
-      "value": "public"
+      "value": "private"
     },
 
     "ALWAYS_ONLINE": {
@@ -70,7 +70,7 @@
 
     "ANTI_DELETE": {
       "description": "set true for show deleted messages. ( true / false )",
-      "required": false,
+      "required": true,
       "value": "true"  
     },
 
@@ -100,13 +100,13 @@
 
     "AUTO_STATUS_REACT": {
       "description": "make it true for automatic status reaction or like.",
-      "required": true,
+      "required": false,
       "value": "true"
     }, 
 
     "AUTO_STATUS_REPLY": {
       "description": "Make it true for auto reply msg on status seen.",
-      "required": true,
+      "required": false,
       "value": "false"
     }, 
 
@@ -125,7 +125,7 @@
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "923427582273"
+      "value": "2349045244799"
     }, 
 
     "BOT_NAME": {
@@ -142,7 +142,7 @@
     
     "ANTI_BAD": {
       "description": "Make it true if you want bot auto delete bad words.",
-      "required": false,
+      "required": true,
       "value": "false"
     },
 
